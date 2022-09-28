@@ -15,6 +15,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 
+@Table(name="productsservice")
 public class Product {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -22,4 +23,8 @@ private int id;
 private String name;
 private String quantity;
 private String price;
+
+public int size() {
+	return 0;
+}
 }

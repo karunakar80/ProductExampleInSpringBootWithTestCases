@@ -52,4 +52,8 @@ public Product updateProduct(Product product) {
 	
 }
 
+public void deleteProduct(Product products) {
+	
+}
+
 }
